@@ -1,8 +1,8 @@
 public class SwimmingActivity : Activity
 {
     private int NumberOfLaps;
-    private const double LapLengthMeters = 50; // Each lap is 50 meters
-    private const double MetersToMiles = 0.000621371; // Meters to miles conversion factor
+    private const double LapLengthMeters = 50; 
+    private const double MetersToMiles = 0.000621371; 
 
     public SwimmingActivity(string date, int lengthInMinutes, int numberOfLaps)
         : base(date, lengthInMinutes)
